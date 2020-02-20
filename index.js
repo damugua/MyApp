@@ -16,7 +16,7 @@ import CodePush from 'react-native-code-push'
 
 if (BUILD_TYPE === BUILD_TYPE_RELEASE) {
   Sentry.init({
-    dsn: 'https://2d17bb1ffde34fec963d29b4c3a29f99@sentry.io/1446147',
+    dsn: 'https://5f8e3212e09f451ab9a8871840fc70aa@sentry.devops.shundaojia.com/31',
     environment: ENVIRONMENT,
   })
 
