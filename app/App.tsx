@@ -58,16 +58,16 @@ export default class App extends Component<Props, State> {
 
   jsCrash() {
     const array = ['x', 'y', 'z', 'a']
-    const a = array[27].length + 5
+    const a = array[28].length + 5
     console.log(`${Number(a) + 1}`)
   }
 
   throw = () => {
-    throw new Error('主动抛出异常 125')
+    throw new Error('主动抛出异常 127')
   }
 
   reject = () => {
-    Promise.reject(new Error('promise 被拒绝了哈!!'))
+    Promise.reject(new Error('promise 被拒绝了哈!'))
   }
 
   render() {
